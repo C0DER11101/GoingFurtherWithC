@@ -3,7 +3,7 @@
 ## 1. Convert a string to double
 >Function used: `atof`.
 
-**Syntax:**
+**Declaration:**
 ```c
 double atof(const char*);
 ```
@@ -11,7 +11,7 @@ double atof(const char*);
 ## 2. Convert a string to integer
 >Function used: `atoi`.
 
-**Syntax:**
+**Declaration:**
 ```c
 int atoi(const char*);
 ```
@@ -19,7 +19,7 @@ int atoi(const char*);
 ## 3. Convert a string to long integer
 >Function used: `atol`.
 
-**Syntax:**
+**Declaration:**
 ```c
 long atol(const char*);
 ```
