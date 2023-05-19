@@ -23,6 +23,10 @@ So, `abort()` will not run the functions that have been set to run by atexit().
 
 >We will use `abort()` when something has gone so wrong with our program's execution that we need to core dump to analyze it or when our program might be in such a corrupt state that it's not safe to do anymore work.
 
+**Output:**
+
+<img src="https://user-images.githubusercontent.com/96164229/239552951-f89b4e1e-e3d8-4886-89e1-0740cbb7bfb4.PNG" width="60%" height="60%">
+
 
 <p align="center">
 &#9678; &#9678; &#9678;
