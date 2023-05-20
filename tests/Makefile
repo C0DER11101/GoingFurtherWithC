@@ -1,5 +1,5 @@
 exe: $(f)
-	gcc $(f) -o exe
+	gcc $(f) -o exe -lm
 
 .PHONY: clean
 
