@@ -20,6 +20,11 @@ Programs:
 
 <img src="https://user-images.githubusercontent.com/96164229/239678062-5ce6dfa1-232b-4e0a-9cb1-abe0941f6453.PNG" width="60%" height="60%">
 
+
+**More variations of** `div()`:
+
+[div()](https://en.cppreference.com/w/c/numeric/math/div).
+
 <p align="center">
 &#9678; &#9678; &#9678;
 </p>
