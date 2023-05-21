@@ -10,6 +10,17 @@
 
 `memchr` _will also return NULL in case if_ `__c` _is in the character array but the number of characters that allow_ `memchr` _to look into the character is less than the occurrence of_ `__c`.
 
+Example:
+
+If we have a string: `"qwertyuip"` and we want to the find the first occurrence of the letter `u` in the given string, but we called `memchr` with the following arguments:
+
+```c
+char string[]="qwertyuip";
+char*pos=memchr(string, 'u', 5);
+```
+
+We can see that `u` occurs at index 6 or the $7^{th}$ position but the `memchr` goes only `5` characters deep into the character array `string`. So `memchr` returns NULL which gets stored in `pos`.
+
 Programs:
 
 1. [16.c](https://github.com/C0DER11101/GoingFurtherWithC/blob/MoreC/tests/16.c).
@@ -24,16 +35,6 @@ Programs:
 
 <img src="https://user-images.githubusercontent.com/96164229/239715701-535882e0-a5d7-4691-94e4-f84c599999b3.png" width="60%" height="60%">
 
-Example:
-
-If we have a string: `"qwertyuip"` and we want to the find the first occurrence of the letter `u` in the given string, but we called `memchr` with the following arguments:
-
-```c
-char string[]="qwertyuip";
-char*pos=memchr(string, 'u', 5);
-```
-
-We can see that `u` occurs at index 6 or the $7^{th}$ position but the `memchr` goes only `5` characters deep into the character array `string`. So `memchr` returns NULL which gets stored in `pos`.
 
 3. [16c.c](https://github.com/C0DER11101/GoingFurtherWithC/blob/MoreC/tests/16c.c).
 
