@@ -57,7 +57,7 @@ Programs:
 
 <img src="https://user-images.githubusercontent.com/96164229/239883569-6a60b950-3dff-43bc-b6a8-b50d5d24f1c3.png" width="60%" height="60%">
 
-_Here we just called_ `computation` _twice, first call with argument_ `value1` _and second call with argument_ `value2`. _This is a single-threaded program, that's operations are performed one after the other. So the first call is executed first and then the second call is executed._
+_Here we just called_ `computation` _twice, first call with argument_ `value1` _and second call with argument_ `value2`. _This is a single-threaded program, that's why operations are performed one after the other. So the first call is executed first and then the second call is executed._
 
 5. [17e.c](https://github.com/C0DER11101/GoingFurtherWithC/blob/MoreC/tests/17e.c).
 
