@@ -35,7 +35,8 @@ gcc -pthread myprogram.c -o myprg
 [https://stackoverflow.com/questions/1662909/undefined-reference-to-pthread-create-in-linux](https://stackoverflow.com/questions/1662909/undefined-reference-to-pthread-create-in-linux).
 
 
-Programs:
+<details>
+<summary>Programs:</summary>
 
 1. [17.c](https://github.com/C0DER11101/GoingFurtherWithC/blob/MoreC/tests/17.c).
 
@@ -76,6 +77,8 @@ _Here we can see a vast difference between the time taken by this program to dis
 <img src="https://user-images.githubusercontent.com/96164229/239884975-dfb3259e-af20-482b-a0d1-71ba094cfcf9.png" width="60%" height="60%">
 
 _Time taken by this program to display is neither too less nor too long. Here, we created a thread for_ `value1` _and then we joine this thread, and then again we created another thread for_ `value2` _and then again we joined it._ So `pthread_join` for `thread1` will basically wait until `thread1` completes it work(that is finding sum). Same goes for `pthread_join` for `thread2`.
+
+</details>
 
 <p align="center">
 &#9678; &#9678; &#9678;
