@@ -30,7 +30,7 @@ int main(void)
 void *computation(void*value)
 {
 	long sum=0;
-	for(int i=0; i<1000000000; i++)
+	for(long i=0; i<1000000000; i++)
 		sum+=*(long*)value;
 	printf("Sum = %ld\n", sum);
 	return NULL;
