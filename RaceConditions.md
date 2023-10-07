@@ -1,6 +1,6 @@
 # Race conditions
 * Race condition occurs when a program depends on the timing of one or more events to function correctly.
-* <ins>When race occurs</ins>: A race condition typically occurs when multiple threads access a **shared** variable(or state) at the same time.
+* <ins>When race condition occurs</ins>: A race condition typically occurs when multiple threads access a **shared** variable(or state) at the same time.
 
 ```c
 #include<stdio.h>
